@@ -103,3 +103,9 @@ fun basicColumn(modifier: Modifier =  Modifier){
 }
 
 @Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    Pertemuan3Theme {
+        basicColumn()
+    }
+}
