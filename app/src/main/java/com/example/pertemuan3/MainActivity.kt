@@ -96,15 +96,8 @@ fun basicColumn(modifier: Modifier =  Modifier){
                     scaleX = 1.02f, // Mengubah ukuran sedikit untuk efek
                     scaleY = 1.02f
                 )
-
+                .fillMaxSize(),
+            contentScale = ContentScale.Crop
         )
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    Pertemuan3Theme {
-        basicColumn()
     }
 }
