@@ -90,8 +90,17 @@ fun basicColumn(modifier: Modifier =  Modifier){
                 .padding(16.dp)
                 .size(420.dp)
                 .clip(RoundedCornerShape(215.dp))
-                
-        )
+                .graphicsLayer(
+                  )
 
+        )
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    Pertemuan3Theme {
+        basicColumn()
     }
 }
