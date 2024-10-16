@@ -62,6 +62,14 @@ fun basicColumn(modifier: Modifier =  Modifier){
             fontSize = 17.sp)
         Spacer(modifier = Modifier.padding(10.dp))
 
+        Image(
+            painter = painterResource(id = R.drawable.logo),
+            contentDescription = "",
+            modifier = Modifier
+                .padding(start = 16.dp, top = 16.dp, end = 16.dp, bottom = 0.dp)
+                .size(210.dp)
+        )
+
 
     }
 }
