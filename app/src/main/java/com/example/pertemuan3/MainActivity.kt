@@ -60,6 +60,8 @@ fun basicColumn(modifier: Modifier =  Modifier){
 
         Text(text = "Ini adalah halaman login",
             fontSize = 17.sp)
+        Spacer(modifier = Modifier.padding(10.dp))
+
 
     }
 }
