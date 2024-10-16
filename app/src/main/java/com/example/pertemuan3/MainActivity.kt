@@ -69,6 +69,10 @@ fun basicColumn(modifier: Modifier =  Modifier){
                 .padding(start = 16.dp, top = 16.dp, end = 16.dp, bottom = 0.dp)
                 .size(210.dp)
         )
+        Text(
+            "Nama",
+            fontSize = 19.sp
+        )
 
 
     }
