@@ -45,3 +45,15 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+
+@Composable
+fun basicColumn(modifier: Modifier =  Modifier){
+    Column(horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Top,
+        modifier = Modifier.fillMaxSize())
+    {
+
+
+    }
+}
