@@ -91,7 +91,11 @@ fun basicColumn(modifier: Modifier =  Modifier){
                 .size(420.dp)
                 .clip(RoundedCornerShape(215.dp))
                 .graphicsLayer(
-                  )
+                    alpha = 1.0f, // Mengatur transparansi untuk efek lecek
+                    translationY = -10f, // Memberikan sedikit efek posisi
+                    scaleX = 1.02f, // Mengubah ukuran sedikit untuk efek
+                    scaleY = 1.02f
+                )
 
         )
     }
