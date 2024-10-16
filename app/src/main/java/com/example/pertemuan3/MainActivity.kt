@@ -83,7 +83,11 @@ fun basicColumn(modifier: Modifier =  Modifier){
             "20220140149",
             fontSize = 35.sp,
         )
+        Image(
+            painter = painterResource(id = R.drawable.gambar),
+            contentDescription = "",
 
+        )
 
     }
 }
