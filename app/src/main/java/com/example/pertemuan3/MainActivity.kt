@@ -101,3 +101,5 @@ fun basicColumn(modifier: Modifier =  Modifier){
         )
     }
 }
+
+@Preview(showBackground = true)
