@@ -74,6 +74,10 @@ fun basicColumn(modifier: Modifier =  Modifier){
             fontSize = 19.sp
         )
 
+        Text(text = "Affra Adi Wirawan",
+            fontSize = 17.sp,
+            color = Color.Red
+        )
 
     }
 }
