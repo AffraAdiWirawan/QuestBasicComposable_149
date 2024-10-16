@@ -89,6 +89,7 @@ fun basicColumn(modifier: Modifier =  Modifier){
             modifier = Modifier
                 .padding(16.dp)
                 .size(420.dp)
+                .clip(RoundedCornerShape(215.dp))
                 
         )
 
