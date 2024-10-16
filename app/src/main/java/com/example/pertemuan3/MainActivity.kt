@@ -87,7 +87,9 @@ fun basicColumn(modifier: Modifier =  Modifier){
             painter = painterResource(id = R.drawable.gambar),
             contentDescription = "",
             modifier = Modifier
-
+                .padding(16.dp)
+                .size(420.dp)
+                
         )
 
     }
